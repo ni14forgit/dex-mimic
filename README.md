@@ -1,6 +1,6 @@
 # dex-mimic
 
-## Applies the Uniswap-V2 protocols.
+## Applies the [Uniswap-V2 protocol](https://uniswap.org/whitepaper.pdf).
 
 -   AMM invariant _x \* y = k_. For x = count of TokenA, y = count of TokenB, constant k.
 -   Swap: trade one token for another while maintaining Uniswap-v2 AMM invariant.
@@ -28,4 +28,4 @@
 ## To Add
 
 -   [ ] Incorporate fees on trades. Uniswap-v2 implements 0.3% fee that is allocated to the token reserves of the liquidity pool.
--   [ ] Maintain minimum liquidity within pool and minimum liquidity contribution to avoid rounding-to-zero errors.
+-   [ ] Maintain minimum liquidity within pool and minimum contribution/withdraw amounts to avoid rounding-to-zero errors.
