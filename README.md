@@ -27,5 +27,5 @@
 
 ## To Add
 
--   [] Incorporate fees on trades. Uniswap-v2 implements 0.3% fee that is allocated to the token reserves of the liquidity pool.
--   [] Minimum liquidity value in pool and minimum liquidity contribution to avoid rounding-to-zero errors.
+-   [ ] Incorporate fees on trades. Uniswap-v2 implements 0.3% fee that is allocated to the token reserves of the liquidity pool.
+-   [ ] Minimum liquidity value in pool and minimum liquidity contribution to avoid rounding-to-zero errors.
